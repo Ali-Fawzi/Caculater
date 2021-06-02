@@ -43,14 +43,14 @@ int main() {
             }   break;
                 case 2:
                 cout << "enter number that you want it square root " << endl;
-                cin  >> x;               //geting input for the square root
+                cin  >> x;                 //geting input for the square root
                 cout << sqrt(x) << endl;
                 break;
             case 3:
                 cout << "enter number\n";
-                cin >> x; //input as the number
+                cin >> x;                  //input as the number
                 cout << "enter the power of number\n";
-                cin >> y; //input as the power of it
+                cin >> y;                  //input as the power of it
                 cout << pow(x, y) << endl; // showing the result
                 break;
             case 4:
