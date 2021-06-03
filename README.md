@@ -3,7 +3,8 @@ Cpp Caculater Ver1.2
 To run the program open ==> Caculater ==> Cacu.cpp
 
 
-simple caculater in cpp dose multiple opreation
-this is the new version 1.2 that loops the menu till the user exit
+simple caculater in cpp dose multiple opreation.
+this is the new version 1.2 that loops the menu till the user exit.
 
-And it can find the square root for a number
+And it can find the square root for a number , powering up a numbers.
+
