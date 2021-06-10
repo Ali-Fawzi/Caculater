@@ -1,6 +1,6 @@
 # Caculater
 Cpp Caculater Ver1.2
-To run the program open ==> Caculater ==> Cacu.cpp
+To run the program open --> Caculater --> Cacu.cpp
 
 
 simple caculater in cpp dose multiple opreation.
