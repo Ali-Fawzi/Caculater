@@ -56,10 +56,10 @@ void LOOP() {
             std::cout << pow(x, y) << std::endl;// showing the result
             break;
         case 4:
-            std::cout << "Goodbye!\a";
+            std::cout << "Goodbye!\a";// \a is for alarm
             break;
         default:
-            std::cout << "invalid selection. Try agin\a" << std::endl;
+            std::cout << "invalid selection. Try agin\a" << std::endl;// \a is for alarm
         }
     } while (opt != 4);
 }
