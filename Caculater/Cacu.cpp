@@ -1,20 +1,22 @@
 #include <iostream>
 #include <cmath>
-#include <conio.h>
-#include <windows.h>
 
-int main() {
+void greeting() {
+    std::cout << "welcome to the caculator ^_^ " << std::endl;//shows all this to the user
+    std::cout << "===============================\n";
+}
+void selections() {
+    std::cout << "> press 1 for normal caculator. \n";
+    std::cout << "> press 2 for finding the square root. \n";
+    std::cout << "> press 3 for powering up numbers. \n";
+    std::cout << "> press 4 to EXIT.\n ";
+}
+void LOOP() {
     double x, y;
     char op;
     int opt;
-    system("Color 3");                 // set colour to blue
-    std::cout << "welcome to the caculator ^_^ " << std::endl;      //shows all this to the user
-    std::cout << "===============================\n";
     do {
-        std::cout << "> press 1 for normal caculator. \n";
-        std::cout << "> press 2 for finding the square root. \n";
-        std::cout << "> press 3 for powering up numbers. \n";
-        std::cout << "> press 4 to EXIT.\n ";
+        selections();
         std::cin >> opt;              //get input from the user
         switch (opt) {                //switching options
         case 1:
@@ -38,7 +40,7 @@ int main() {
                 std::cout << x / y << std::endl;
                 break;
             default:
-                std::cout << "invalid op" << std::endl; //activated when inputing wrong operator
+                std::cout << "invalid op\a" << std::endl;//activated when inputing wrong operator
                 break;
             }   break;
         case 2:
@@ -54,15 +56,16 @@ int main() {
             std::cout << pow(x, y) << std::endl;        // showing the result
             break;
         case 4:
-            std::cout << "Goodbye!";
+            std::cout << "Goodbye!\a";
             break;
         default:
-            std::cout << "invalid selection. Try agin" << std::endl;
+            std::cout << "invalid selection. Try agin\a" << std::endl;
         }
     } while (opt != 4);
-
+}
+int main() {
+    system("Color 3");// set colour to blue
+    greeting();
+    LOOP();
     return 0;
-
-
-
 }
