@@ -52,14 +52,14 @@ void LOOP() {
             std::cout << "enter number\n";
             std::cin >> x;//input as the number.
             std::cout << "enter the power of number\n";
-            std::cin >> y;//input as the power of it
-            std::cout << pow(x, y) << std::endl;// showing the result
+            std::cin >> y;//input as the power of it.
+            std::cout << pow(x, y) << std::endl;// showing the result.
             break;
         case 4:
-            std::cout << "Goodbye!\a";// \a is for alarm
+            std::cout << "Goodbye!\a";// \a is for alarm.
             break;
         default:
-            std::cout << "invalid selection. Try agin\a" << std::endl;// \a is for alarm
+            std::cout << "invalid selection. Try agin\a" << std::endl;// \a is for alarm.
         }
     } while (opt != 4);
 }
