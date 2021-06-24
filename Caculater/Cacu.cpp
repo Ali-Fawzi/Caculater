@@ -61,10 +61,10 @@ void LOOP() {
         default:
             std::cout << "invalid selection. Try agin\a" << std::endl;// \a is for alarm.
         }
-    } while (opt != 4);
+    } while (opt != 4);//when enter 4 the loop breaks.
 }
 int main() {
-    system("Color 3");// set colour to blue
+    system("Color 3");// set colour to blue.
     greeting();
     LOOP();
     return 0;
