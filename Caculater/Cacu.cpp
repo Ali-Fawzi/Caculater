@@ -40,17 +40,17 @@ void LOOP() {
                 std::cout << x / y << std::endl;
                 break;
             default:
-                std::cout << "invalid op\a" << std::endl;//activated when inputing wrong operator
+                std::cout << "invalid op\a" << std::endl;//activated when inputing wrong operator.
                 break;
             }   break;
         case 2:
             std::cout << "enter number that you want it square root " << std::endl;
-            std::cin >> x;//geting input for the square root
+            std::cin >> x;//geting input for the square root.
             std::cout << sqrt(x) << std::endl;
             break;
         case 3:
             std::cout << "enter number\n";
-            std::cin >> x;//input as the number
+            std::cin >> x;//input as the number.
             std::cout << "enter the power of number\n";
             std::cin >> y;//input as the power of it
             std::cout << pow(x, y) << std::endl;// showing the result
