@@ -45,7 +45,7 @@ void LOOP() {
             }   break;
         case 2:
             std::cout << "enter number that you want it square root " << std::endl;
-            std::cin >> x;//geting input for the square root
+            std::cin >> x;//geting input for the square root.
             std::cout << sqrt(x) << std::endl;
             break;
         case 3:
