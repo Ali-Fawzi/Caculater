@@ -53,7 +53,7 @@ void LOOP() {
             std::cin >> x;//input as the number.
             std::cout << "enter the power of number\n";
             std::cin >> y;//input as the power of it.
-            std::cout << pow(x, y) << std::endl;// showing the result. //pow is a function for x^y
+            std::cout << pow(x, y) << std::endl;// showing the result. //pow is a function for x^y.
             break;
         case 4:
             std::cout << "Goodbye!\a";// \a is for alarm.
