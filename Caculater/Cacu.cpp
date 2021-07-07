@@ -2,7 +2,7 @@
 #include <cmath>
 
 void greeting() {
-    std::cout << "welcome to the caculator ^_^ " << std::endl;//shows all this to the user.
+    std::cout << "welcome to the caculator ^_^ " << std::endl;//shows all this to the display.
     std::cout << "===============================\n";
 }
 void selections() {
