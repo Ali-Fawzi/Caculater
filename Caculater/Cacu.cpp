@@ -6,7 +6,7 @@ void greeting() {
     std::cout << "===============================\n";
 }
 void selections() {
-    std::cout << "> press 1 for normal caculator. \n";
+    std::cout << "> press 1 for normal caculator. \n";//show all this to the dispaly.
     std::cout << "> press 2 for finding the square root. \n";
     std::cout << "> press 3 for powering up numbers. \n";
     std::cout << "> press 4 to EXIT.\n ";
