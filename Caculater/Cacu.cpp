@@ -18,7 +18,7 @@ void LOOP() {
     do {
         selections();
         std::cin >> opt;//get input from the user.
-        switch (opt) {//switching options
+        switch (opt) {//switching options.
         case 1:
             std::cout << "Enter a num1 :" << std::endl;
             std::cin >> x;//geting input as num 1.
