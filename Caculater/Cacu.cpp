@@ -61,7 +61,7 @@ void LOOP() {
         default:
             std::cout << "invalid selection. Try agin\a" << std::endl;// \a is for alarm.
         }
-    } while (opt != 4);//when enter 4 the loop breaks.
+    } while (opt != 4);//when enter 4 the loop breaks..
 }
 int main() {
     system("Color 3");// set colour to blue.
