@@ -40,7 +40,7 @@ void LOOP() {
                 std::cout << x / y << std::endl;
                 break;
             default:
-                std::cout << "invalid op\a" << std::endl;//activated when inputing wrong operator
+                std::cout << "invalid op\a" << std::endl;//activated when inputing wrong operator.
                 break;
             }   break;
         case 2:
