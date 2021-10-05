@@ -26,7 +26,7 @@ void LOOP() {
             std::cin >> op;//geting operator for the operation.
             std::cout << "Enter a num2 :" << std::endl;
             std::cin >> y;//geting input as num 2.
-            switch (op) {//switching operations
+            switch (op) {//switching operations.
             case '+':
                 std::cout << x + y << std::endl;
                 break;
